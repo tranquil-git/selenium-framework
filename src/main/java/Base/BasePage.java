@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
-public class PageBase {
+public class BasePage {
     //thuộc tính
     protected WebDriver driver;
 
