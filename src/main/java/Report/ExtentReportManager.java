@@ -51,7 +51,7 @@ public class ExtentReportManager {
         getTest().fail(msg);
     }
 
-    public static void captureScreenshot(WebDriver driver, String testName) {
+    public static String captureScreenshot(WebDriver driver, String testName) {
         //kiem tra folder screenshots co ton tai ko, neu ko co thi se tao truoc folder
         File destFolder = new File(SCREENSHOT_PATH);
         if(!destFolder.exists())
@@ -68,6 +68,7 @@ public class ExtentReportManager {
             Files.copy(sourceFile, destFile);
             String relativePath = "screenshots/" + fileName;
             getTest().fail("Screenshot captured", MediaEntityBuilder.createScreenCaptureFromPath(relativePath).build());
+            return destFile.getAbsolutePath();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

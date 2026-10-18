@@ -18,6 +18,11 @@ public class ChromeDriverManager extends DriverManager {
         prefs.put("profile.password_manager_enabled", false);
         options.setExperimentalOption("prefs", prefs);
 
+        // chay headless: -Dheadless=true
+        if (Boolean.parseBoolean(System.getProperty("headless", "false"))) {
+            options.addArguments("--headless=new", "--window-size=1920,1080");
+        }
+
         this.driver = new ChromeDriver(options);
     }
 }

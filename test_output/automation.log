@@ -1,0 +1,42 @@
+[2026-10-18 21:30:28] [INFO ] TestListener - onStart: REGRESSION TEST
+[2026-10-18 21:30:28] [INFO ] Log - Start browser: chrome
+[2026-10-18 21:30:31] [INFO ] TestListener - onTestStart: test_demo_fail_screenshot
+[2026-10-18 21:30:33] [INFO ] Log - Input text 'standard_user' into By.id: user-name
+[2026-10-18 21:30:33] [INFO ] Log - Input text 'secret_sauce' into By.id: password
+[2026-10-18 21:30:33] [INFO ] Log - Click By.id: login-button
+[2026-10-18 21:30:33] [INFO ] TestListener - onTestFailure: test_demo_fail_screenshot - FAILED
+[2026-10-18 21:30:33] [ERROR] TestListener - Exception: java.lang.AssertionError: expected [Wrong Title] but found [Products]
+[2026-10-18 21:30:33] [INFO ] TestListener - Saved screenshot: /home/tuan/Downloads/selenium-framework-master/test_output/screenshots/test_demo_fail_screenshot_20261018_213033.png
+[2026-10-18 21:30:33] [INFO ] Log - Quit browser
+[2026-10-18 21:30:33] [INFO ] Log - Start browser: chrome
+[2026-10-18 21:30:34] [INFO ] TestListener - onTestStart: test_invalid_password
+[2026-10-18 21:30:39] [INFO ] Log - Input text 'standard_user' into By.id: user-name
+[2026-10-18 21:30:39] [INFO ] Log - Input text 'wrong_password' into By.id: password
+[2026-10-18 21:30:39] [INFO ] Log - Click By.id: login-button
+[2026-10-18 21:30:39] [INFO ] TestListener - onTestSuccess: test_invalid_password - PASSED
+[2026-10-18 21:30:39] [INFO ] Log - Quit browser
+[2026-10-18 21:30:39] [INFO ] Log - Start browser: chrome
+[2026-10-18 21:30:39] [INFO ] TestListener - onTestStart: test_locked_out_user
+[2026-10-18 21:30:43] [INFO ] Log - Input text 'locked_out_user' into By.id: user-name
+[2026-10-18 21:30:43] [INFO ] Log - Input text 'secret_sauce' into By.id: password
+[2026-10-18 21:30:43] [INFO ] Log - Click By.id: login-button
+[2026-10-18 21:30:43] [INFO ] TestListener - onTestSuccess: test_locked_out_user - PASSED
+[2026-10-18 21:30:43] [INFO ] Log - Quit browser
+[2026-10-18 21:30:43] [INFO ] Log - Start browser: chrome
+[2026-10-18 21:30:44] [INFO ] TestListener - onTestStart: test_valid_login
+[2026-10-18 21:30:45] [INFO ] Log - Input text 'standard_user' into By.id: user-name
+[2026-10-18 21:30:45] [INFO ] Log - Input text 'secret_sauce' into By.id: password
+[2026-10-18 21:30:46] [INFO ] Log - Click By.id: login-button
+[2026-10-18 21:30:46] [INFO ] TestListener - onTestSuccess: test_valid_login - PASSED
+[2026-10-18 21:30:46] [INFO ] Log - Quit browser
+[2026-10-18 21:30:46] [INFO ] Log - Start browser: chrome
+[2026-10-18 21:30:46] [INFO ] TestListener - onTestStart: test_add_products_to_cart
+[2026-10-18 21:30:48] [INFO ] Log - Input text 'standard_user' into By.id: user-name
+[2026-10-18 21:30:49] [INFO ] Log - Input text 'secret_sauce' into By.id: password
+[2026-10-18 21:30:49] [INFO ] Log - Click By.id: login-button
+[2026-10-18 21:30:49] [INFO ] Log - Click By.id: add-to-cart-sauce-labs-backpack
+[2026-10-18 21:30:49] [INFO ] Log - Click By.id: add-to-cart-sauce-labs-bike-light
+[2026-10-18 21:30:49] [INFO ] Log - Click By.cssSelector: [data-test='shopping-cart-link']
+[2026-10-18 21:30:49] [INFO ] TestListener - onTestSuccess: test_add_products_to_cart - PASSED
+[2026-10-18 21:30:49] [INFO ] Log - Quit browser
+[2026-10-18 21:30:49] [INFO ] TestListener - onFinish: REGRESSION TEST

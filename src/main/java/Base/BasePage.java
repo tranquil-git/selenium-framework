@@ -1,6 +1,7 @@
 package Base;
 
 import Constants.TimeOutConstants;
+import Utils.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,6 +33,7 @@ public class BasePage {
 
     public void inputText(By locator, String text, long timeOutInSec){
         //code nhập text vào ô input
+        Log.info("Input text '" + text + "' into " + locator);
         WebElement element = waitForElementVisible(locator, timeOutInSec);
         element.sendKeys(text);
     }
@@ -41,6 +43,7 @@ public class BasePage {
     }
 
     public void click(By locator, long timeOutInSec){
+        Log.info("Click " + locator);
         WebElement btn = waitForElementClickable(locator, timeOutInSec);
         btn.click();
     }
