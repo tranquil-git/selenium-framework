@@ -9,9 +9,9 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">All Test Suite</th></tr>
-<tr><td><a href="#t0">REGRESSION TEST</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">21,579</td><td></td><td></td></tr>
+<tr><td><a href="#t0">REGRESSION TEST</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">8,719</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">REGRESSION TEST &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.LoginTest</td><td><a href="#m0">test_demo_fail_screenshot</a></td><td rowspan="1">1792333831708</td><td rowspan="1">1959</td></tr><tr><th colspan="4">REGRESSION TEST &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.CartTest</td><td><a href="#m1">test_add_products_to_cart</a></td><td rowspan="1">1792333846724</td><td rowspan="1">2800</td></tr><tr class="passedodd"><td rowspan="3">Tests.LoginTest</td><td><a href="#m2">test_invalid_password</a></td><td rowspan="1">1792333834239</td><td rowspan="1">5222</td></tr><tr class="passedodd"><td><a href="#m3">test_locked_out_user</a></td><td rowspan="1">1792333839987</td><td rowspan="1">3694</td></tr><tr class="passedodd"><td><a href="#m4">test_valid_login</a></td><td rowspan="1">1792333844240</td><td rowspan="1">1953</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">REGRESSION TEST &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Tests.LoginTest</td><td><a href="#m0">test_demo_fail_screenshot</a></td><td rowspan="1">1792337320934</td><td rowspan="1">1137</td></tr><tr><th colspan="4">REGRESSION TEST &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Tests.CartTest</td><td><a href="#m1">test_add_products_to_cart</a></td><td rowspan="1">1792337327085</td><td rowspan="1">1679</td></tr><tr class="passedodd"><td rowspan="3">Tests.LoginTest</td><td><a href="#m2">test_invalid_password</a></td><td rowspan="1">1792337322687</td><td rowspan="1">968</td></tr><tr class="passedodd"><td><a href="#m3">test_locked_out_user</a></td><td rowspan="1">1792337324171</td><td rowspan="1">1214</td></tr><tr class="passedodd"><td><a href="#m4">test_valid_login</a></td><td rowspan="1">1792337325857</td><td rowspan="1">701</td></tr></tbody>
 </table>
 <h2>REGRESSION TEST</h2><h3 id="m0">Tests.LoginTest#test_demo_fail_screenshot</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Wrong Title] but found [Products]
 	at org.testng.Assert.fail(Assert.java:111)
@@ -21,8 +21,8 @@
 	at org.testng.Assert.assertEquals(Assert.java:656)
 	at org.testng.Assert.assertEquals(Assert.java:666)
 	at Tests.LoginTest.test_demo_fail_screenshot(LoginTest.java:36)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -31,7 +31,7 @@
 	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at org.testng.TestRunner.privateRun(TestRunner.java:741)
 	at org.testng.TestRunner.run(TestRunner.java:616)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -46,9 +46,9 @@
 	at org.testng.TestNG.run(TestNG.java:1079)
 	at org.gradle.api.internal.tasks.testing.testng.TestNGTestRunner.runTests(TestNGTestRunner.java:131)
 	at org.gradle.api.internal.tasks.testing.testng.TestNGTestDefinitionProcessor.stop(TestNGTestDefinitionProcessor.java:110)
-	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:64)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:63)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)

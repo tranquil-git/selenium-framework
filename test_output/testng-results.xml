@@ -2,30 +2,30 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-18T21:30:28 GMT+07:00" name="All Test Suite" finished-at="2026-10-18T21:30:49 GMT+07:00" duration-ms="21579">
+  <suite started-at="2026-10-18T22:28:40 ICT" name="All Test Suite" finished-at="2026-10-18T22:28:48 ICT" duration-ms="8719">
     <groups>
     </groups>
-    <test started-at="2026-10-18T21:30:28 GMT+07:00" name="REGRESSION TEST" finished-at="2026-10-18T21:30:49 GMT+07:00" duration-ms="21579">
+    <test started-at="2026-10-18T22:28:40 ICT" name="REGRESSION TEST" finished-at="2026-10-18T22:28:48 ICT" duration-ms="8719">
       <class name="Tests.CartTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CartTest@6f0b0a5e]" started-at="2026-10-18T21:30:46 GMT+07:00" name="setUp" finished-at="2026-10-18T21:30:46 GMT+07:00" duration-ms="463" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.CartTest@756cf158]" started-at="2026-10-18T22:28:46 ICT" name="setUp" finished-at="2026-10-18T22:28:47 ICT" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_add_products_to_cart()[pri:0, instance:Tests.CartTest@6f0b0a5e]" started-at="2026-10-18T21:30:46 GMT+07:00" name="test_add_products_to_cart" description="Them 2 san pham vao gio, kiem tra badge va gio hang" finished-at="2026-10-18T21:30:49 GMT+07:00" duration-ms="2800" status="PASS">
+        <test-method signature="test_add_products_to_cart()[pri:0, instance:Tests.CartTest@756cf158]" started-at="2026-10-18T22:28:47 ICT" name="test_add_products_to_cart" description="Them 2 san pham vao gio, kiem tra badge va gio hang" finished-at="2026-10-18T22:28:48 ICT" duration-ms="1679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_add_products_to_cart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.CartTest@6f0b0a5e]" started-at="2026-10-18T21:30:49 GMT+07:00" name="tearDown" finished-at="2026-10-18T21:30:49 GMT+07:00" duration-ms="65" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.CartTest@756cf158]" started-at="2026-10-18T22:28:48 ICT" name="tearDown" finished-at="2026-10-18T22:28:48 ICT" duration-ms="89" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Tests.CartTest -->
       <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:28 GMT+07:00" name="setUp" finished-at="2026-10-18T21:30:31 GMT+07:00" duration-ms="3558" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:40 ICT" name="setUp" finished-at="2026-10-18T22:28:40 ICT" duration-ms="676" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_demo_fail_screenshot()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:31 GMT+07:00" name="test_demo_fail_screenshot" description="DEMO FAIL: kiem tra title sai de chup screenshot" finished-at="2026-10-18T21:30:33 GMT+07:00" duration-ms="1959" status="FAIL">
+        <test-method signature="test_demo_fail_screenshot()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:40 ICT" name="test_demo_fail_screenshot" description="DEMO FAIL: kiem tra title sai de chup screenshot" finished-at="2026-10-18T22:28:42 ICT" duration-ms="1137" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Wrong Title] but found [Products]]]>
@@ -39,8 +39,8 @@ at org.testng.Assert.assertEquals(Assert.java:132)
 at org.testng.Assert.assertEquals(Assert.java:656)
 at org.testng.Assert.assertEquals(Assert.java:666)
 at Tests.LoginTest.test_demo_fail_screenshot(LoginTest.java:36)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -49,7 +49,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -64,9 +64,9 @@ at org.testng.TestNG.runSuites(TestNG.java:1112)
 at org.testng.TestNG.run(TestNG.java:1079)
 at org.gradle.api.internal.tasks.testing.testng.TestNGTestRunner.runTests(TestNGTestRunner.java:131)
 at org.gradle.api.internal.tasks.testing.testng.TestNGTestDefinitionProcessor.stop(TestNGTestDefinitionProcessor.java:110)
-at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:64)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.gradle.api.internal.tasks.testing.SuiteTestDefinitionProcessor.stop(SuiteTestDefinitionProcessor.java:63)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.gradle.internal.dispatch.MethodInvocation.invokeOn(MethodInvocation.java:77)
 at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:28)
 at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:19)
@@ -88,43 +88,43 @@ at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerM
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_demo_fail_screenshot -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:33 GMT+07:00" name="tearDown" finished-at="2026-10-18T21:30:33 GMT+07:00" duration-ms="78" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:42 ICT" name="tearDown" finished-at="2026-10-18T22:28:42 ICT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:33 GMT+07:00" name="setUp" finished-at="2026-10-18T21:30:34 GMT+07:00" duration-ms="436" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:42 ICT" name="setUp" finished-at="2026-10-18T22:28:42 ICT" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_invalid_password()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:34 GMT+07:00" name="test_invalid_password" description="Login sai password hien thi thong bao loi" finished-at="2026-10-18T21:30:39 GMT+07:00" duration-ms="5222" status="PASS">
+        <test-method signature="test_invalid_password()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:42 ICT" name="test_invalid_password" description="Login sai password hien thi thong bao loi" finished-at="2026-10-18T22:28:43 ICT" duration-ms="968" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_invalid_password -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:39 GMT+07:00" name="tearDown" finished-at="2026-10-18T21:30:39 GMT+07:00" duration-ms="67" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:43 ICT" name="tearDown" finished-at="2026-10-18T22:28:43 ICT" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:39 GMT+07:00" name="setUp" finished-at="2026-10-18T21:30:39 GMT+07:00" duration-ms="457" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:43 ICT" name="setUp" finished-at="2026-10-18T22:28:44 ICT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_locked_out_user()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:39 GMT+07:00" name="test_locked_out_user" description="Login voi user bi khoa" finished-at="2026-10-18T21:30:43 GMT+07:00" duration-ms="3694" status="PASS">
+        <test-method signature="test_locked_out_user()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:44 ICT" name="test_locked_out_user" description="Login voi user bi khoa" finished-at="2026-10-18T22:28:45 ICT" duration-ms="1214" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_locked_out_user -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:43 GMT+07:00" name="tearDown" finished-at="2026-10-18T21:30:43 GMT+07:00" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:45 ICT" name="tearDown" finished-at="2026-10-18T22:28:45 ICT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:43 GMT+07:00" name="setUp" finished-at="2026-10-18T21:30:44 GMT+07:00" duration-ms="488" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:45 ICT" name="setUp" finished-at="2026-10-18T22:28:45 ICT" duration-ms="374" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test_valid_login()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:44 GMT+07:00" name="test_valid_login" description="Login thanh cong voi user hop le" finished-at="2026-10-18T21:30:46 GMT+07:00" duration-ms="1953" status="PASS">
+        <test-method signature="test_valid_login()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:45 ICT" name="test_valid_login" description="Login thanh cong voi user hop le" finished-at="2026-10-18T22:28:46 ICT" duration-ms="701" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_valid_login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@7c541c15]" started-at="2026-10-18T21:30:46 GMT+07:00" name="tearDown" finished-at="2026-10-18T21:30:46 GMT+07:00" duration-ms="64" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.LoginTest@592e843a]" started-at="2026-10-18T22:28:46 ICT" name="tearDown" finished-at="2026-10-18T22:28:46 ICT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

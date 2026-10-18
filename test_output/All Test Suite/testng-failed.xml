@@ -9,8 +9,8 @@
       <class name="Tests.LoginTest">
         <methods>
           <include name="tearDown"/>
-          <include name="setUp"/>
           <include name="test_demo_fail_screenshot"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- Tests.LoginTest -->
     </classes>

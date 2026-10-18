@@ -29,4 +29,6 @@ test {
     testLogging {
         events "passed", "failed", "skipped"
     }
+    // luôn chạy lại test, không bị UP-TO-DATE khi code không đổi
+    outputs.upToDateWhen { false }
 }
